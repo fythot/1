@@ -310,7 +310,7 @@ def lineBot(op):
                         
                        
 #-------------------------------------------------------------------------------
-        if op.type == 25:
+        if op.type in [25, 26]:
             print ("[ 25 ] UNK87 BOT TIGA")
             msg = op.message
             text = msg.text
@@ -389,7 +389,7 @@ def lineBot(op):
                         ret_ += "\n╠ teman : {}".format(str(len(contactlist)))
                         ret_ += "\n╠ Blokir : {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[ About Selfbot ]"
-                        ret_ += "\n╠ Version : Premium"
+                        ret_ += "\n╠ Version : Protect"
                         ret_ += "\n╠ Creator : {}".format(creator.displayName)
                         ret_ += "\n╚══[ About Bot ]"
                         unk.sendMessage(to, str(ret_))
