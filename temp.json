@@ -1,7 +1,7 @@
 {
     "autoAdd": false,
     "autoJoin": true,
-    "autoJoinTicket": true,
+    "autoJoinTicket": false,
     "autoLeave": false,
     "autoRead": false,
     "blacklist": {},
