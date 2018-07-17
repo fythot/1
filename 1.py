@@ -178,7 +178,7 @@ def helpmedia1():
                   " Clearban" + "\n" + \
                   " Adminadd @" + "\n" + \
                   " Owneradd @" + "\n" + \
-                  "  b"
+                  "  "
     return helpMedia1
 
 def helpmedia2():
